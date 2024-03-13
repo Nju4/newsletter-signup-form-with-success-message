@@ -32,6 +32,7 @@ function dismissMessage() {
 
     dismissButton.style.display ='none';
     cardOne.style.display ='block';
+    dismissButton.style.display = 'block';
 
 }
 
