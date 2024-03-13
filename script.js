@@ -22,6 +22,7 @@ function showSuccess() {
 
     cardTwo.style.display = 'block';
     cardOne.style.display = 'none';
+    
     dismissButton.style.display = 'block'; // Menampilkan kembali tombol Dismiss message
 }
 
@@ -29,9 +30,12 @@ function showSuccess() {
 function dismissMessage() {
     const dismissButton = document.getElementById('dismissButton');
     const cardOne = document.getElementById('card');
+    const cardTwo = document.getElementById('card2');
 
     dismissButton.style.display ='none';
     cardOne.style.display ='block';
+    cardTwo.style.display ='none';
+    
     dismissButton.style.display = 'block';
 
 }
